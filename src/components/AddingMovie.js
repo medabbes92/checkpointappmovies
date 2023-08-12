@@ -12,6 +12,7 @@ const AddingMovie = ({ add }) => {
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [rate, setRate] = useState(0);
+  const [trailer, settrailer] = useState("")
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,9 +22,10 @@ const AddingMovie = ({ add }) => {
       title: name,
       text: desc,
       rating: rate,
+      trailer: trailer
     };
 
-    if (image && name && desc && rate) {
+    if (image && name && desc && rate && trailer) {
       add(newobj);
     } else {
       alert(" there is a Missing information ");
@@ -32,6 +34,7 @@ const AddingMovie = ({ add }) => {
     setName("");
     setDesc("");
     setRate("");
+    settrailer("");
   };
 
   return (
@@ -76,6 +79,19 @@ const AddingMovie = ({ add }) => {
                 rows={4}
                 value={desc}
                 onChange={(e) => setDesc(e.target.value)}
+              />
+            </Form.Group>
+
+            <Form.Group
+              className="mb-3"
+              controlId="exampleForm.ControlTextarea1"
+            >
+              <Form.Label>Trailer</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows={4}
+                value={trailer}
+                onChange={(e) => settrailer(e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import ReactStars from "react-rating-stars-component";
+import { Link } from "react-router-dom";
 
 const MovieDesc = ({ el, del }) => {
   return (
@@ -30,7 +31,9 @@ const MovieDesc = ({ el, del }) => {
           >
             Delete
           </Button>
+          <Link to={`/movie/${el.id}`}>
           <Button variant="primary">More Details</Button>
+          </Link>
         </Card.Body>
       </Card>
     </div>

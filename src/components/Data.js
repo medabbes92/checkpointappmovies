@@ -5,6 +5,8 @@ export const movies = [
       title: "Saw I",
       text: "As a deadly battle rages over Jigsaw's brutal legacy,Jigsaw survivors gathers to seek the support of self-help guru and fellow survivor Bobby Dagen.",
       rating: "4",
+      trailer: "https://www.youtube.com/embed/zaANSeQ3La4",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -12,6 +14,8 @@ export const movies = [
       title: "Saw II",
       text: "A detective and as Jigsaw's team must rescuuuuue 8 people trapped in a factory by the twisted serial killer known as Jigsaw.",
       rating: "3",
+      trailer: "https://www.youtube.com/embed/Lq2AzZB6DUE",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -19,6 +23,8 @@ export const movies = [
       title: "Saw III",
       text: "Jigsaw abducts a doctor in order to keep himself alive while he watches his new apprentice put an unlucky citizen named Jeff through a brutal test.",
       rating: "4",
+      trailer: "https://www.youtube.com/embed/Lq2AzZB6DUE",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -26,6 +32,8 @@ export const movies = [
       title: "Saw IV",
       text: "Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game.",
       rating: "5",
+      trailer: "https://www.youtube.com/embed/hQ7JF5JZkoo",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -33,6 +41,8 @@ export const movies = [
       title: "Scream",
       text: "25 years after a streak of brutal murders shocked the quiet town of Woodsboro, new killer dons the Ghostface mask and begins targeting a group of teenagers.",
       rating: "4",
+      trailer: "https://www.youtube.com/watch?v=h74AXqw4Opc",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -40,6 +50,8 @@ export const movies = [
       title: "Parasite",
       text: "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
       rating: "5",
+      trailer: "https://www.youtube.com/watch?v=5xH0HfJHsaY",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -47,6 +59,8 @@ export const movies = [
       title: "Shallows",
       text: "A mere 200 yards from shore, surfer Nancy is attacked by a great white shark, with her short journey to safety becoming the ultimate contest of wills.",
       rating: "4",
+      trailer: "https://www.youtube.com/watch?v=EgdxIlSuB70",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -54,6 +68,8 @@ export const movies = [
       title: "Shutter Island",
       text: "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient.",
       rating: "3",
+      trailer: "https://www.youtube.com/watch?v=v8yrZSkKxTA",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
     {
       id: Math.random(),
@@ -61,6 +77,8 @@ export const movies = [
       title: "Pulp Fiction",
       text: "It tells four intertwining tales of crime and violence in Los Angeles, California. The film stars John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman.",
       rating: "5",
+      trailer: "https://www.youtube.com/watch?v=s7EdQ4FqbhY",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing el",
     },
   
   ];
